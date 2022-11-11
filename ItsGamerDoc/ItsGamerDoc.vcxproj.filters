@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e55601dd-0311-4f0d-abbe-8cf294dac706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="ioctls.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ue4.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+  </ItemGroup>
+</Project>
