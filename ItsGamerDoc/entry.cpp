@@ -7,6 +7,7 @@
 #include <iostream>
 #include "utils.h"
 #include "cheat.h"
+#include <thread>
 
 auto main() -> NTSTATUS
 {
