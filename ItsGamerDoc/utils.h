@@ -1,7 +1,5 @@
 #pragma once
 
-#include <thread>
-
 auto myGetProcessID(std::string ProcessName) -> DWORD
 {
 	HANDLE hsnap;
