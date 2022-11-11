@@ -4,12 +4,11 @@
 
 class CoolDriver
 {
-private:
+public:
 	HANDLE DriverHandle;
 	int TargetProcessPid;
 	uint64_t GuardedPointer;
 
-public:
 	CoolDriver(int targetPid)
 	{
 		DriverHandle = CreateFileW(L"\\\\.\\coolschool", GENERIC_READ | GENERIC_WRITE, NULL, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_HIDDEN, NULL);
