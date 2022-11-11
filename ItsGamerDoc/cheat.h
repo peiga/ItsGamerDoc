@@ -23,7 +23,7 @@ auto GlowThread() -> void
 	{
 		GuardedRegions = Cool.GetGuardedRegions(offsets::FirstPointer);
 
-		auto UworldAddr = Cool.Read<uintptr_t>(GuardedRegions + offsets::FirstPointer);
+		auto UworldPtr = Cool.Read<uintptr_t>(GuardedRegions + offsets::FirstPointer);
 
 		auto Uworld = GetWorld(UworldAddr);
 
