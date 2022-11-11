@@ -59,7 +59,7 @@ auto GlowThread() -> void
 
 						if (MeshBoneCount > 90 && MeshBoneCount < 200)
 						{
-							if (Cool.Read<int>(Mesh + offsets::OutlineMode) != 1)
+							if (Cool.Read<int>(Mesh + offsets::OutlineMode) == 3)
 								Cool.Write<int>(Mesh + offsets::OutlineMode, 1);
 						}
 
